@@ -19,6 +19,9 @@ We provide a [CloudFormation template](https://github.com/IxorTalk/ixortalk.aws.
 
 ## Role and User creation
 
+We're going to use the Amazon CLI to create the groups , users, and assign the users to groups.
+You can also use the AWS console (UI) if your prefer that.
+
 Define your user pool ID in a variable:
 ```
 USER_POOL_ID=eu-central-1_xxxxxxxxx
