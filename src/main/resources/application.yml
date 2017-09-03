@@ -1,0 +1,8 @@
+com:
+  ixortalk:
+    security:
+        jwt:
+          aws:
+            userPoolId: "eu-central-1_xxxxxxxxx"
+            identityPoolId: "eu-central-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+            region: "eu-central-1"
