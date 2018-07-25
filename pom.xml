@@ -33,7 +33,7 @@
 		<dependency>
 			<groupId>com.ixortalk</groupId>
 			<artifactId>ixortalk.aws.cognito.jwt.security.filter</artifactId>
-			<version>0.0.5-SNAPSHOT</version>
+			<version>0.0.7</version>
 		</dependency>
 
 		<dependency>

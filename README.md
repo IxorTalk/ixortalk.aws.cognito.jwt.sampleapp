@@ -102,7 +102,7 @@ Now that you have the token, you can execute API calls :
 ### Returning a principal
 
 ```
-curl -v -H "Authorization: $TOKEN" http://localhost:8080/api/me | jq
+curl -v -H "Authorization: Bearer $TOKEN" http://localhost:8080/api/me | jq
 ```
 
 You should see a response like this :
@@ -168,12 +168,12 @@ To demonstrate the authorization part, the API also exposes 2 additional endpoin
 
 ### Endpoint that requires the ADMIN role (admin user)
 ```
-curl -v -H "Authorization: $TOKEN" http://localhost:8080/api/superSecure | jq
+curl -v -H "Authorization: Bearer $TOKEN" http://localhost:8080/api/superSecure | jq
 ```
 
 ### Endpoint that requires the USER role (admin user or user user)
 ```
-curl -v -H "Authorization: $TOKEN" http://localhost:8080/api/secure | jq
+curl -v -H "Authorization: Bearer $TOKEN" http://localhost:8080/api/secure | jq
 ```
 
 # License
